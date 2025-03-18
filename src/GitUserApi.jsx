@@ -2,7 +2,6 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import Card from './Card'
 const GitUserApi = () => {
-
   const [data, setData] = useState([])
 
   const getUser = async () => {
@@ -21,7 +20,6 @@ const GitUserApi = () => {
   }
 
   useEffect(() => {
-
     getUser();
   }, [])
 
